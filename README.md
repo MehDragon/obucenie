@@ -6,6 +6,13 @@
       "target": "C1",
       "id": "main",
       "type": "branch"
+    },
+    "bugFix": {
+      "remoteTrackingBranchID": null,
+      "remote": false,
+      "target": "C1",
+      "id": "bugFix",
+      "type": "branch"
     }
   },
   "commits": {
@@ -13,7 +20,7 @@
       "type": "commit",
       "parents": [],
       "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 09:48:44 GMT+0300 (Москва, стандартное время)",
+      "createTime": "Sat Dec 04 2021 09:50:22 GMT+0300 (Москва, стандартное время)",
       "commitMessage": "Быстрый коммит. А надо!",
       "id": "C0",
       "rootCommit": true
@@ -24,15 +31,15 @@
         "C0"
       ],
       "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 09:48:44 GMT+0300 (Москва, стандартное время)",
+      "createTime": "Sat Dec 04 2021 09:50:22 GMT+0300 (Москва, стандартное время)",
       "commitMessage": "Быстрый коммит. А надо!",
       "id": "C1"
     }
   },
   "tags": {},
   "HEAD": {
-    "target": "main",
     "id": "HEAD",
+    "target": "bugFix",
     "type": "general ref"
   }
 }
