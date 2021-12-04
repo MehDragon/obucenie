@@ -3,14 +3,14 @@
     "main": {
       "remoteTrackingBranchID": null,
       "remote": false,
-      "target": "C3",
+      "target": "C2",
       "id": "main",
       "type": "branch"
     },
     "bugFix": {
       "remoteTrackingBranchID": null,
       "remote": false,
-      "target": "C2'",
+      "target": "C4",
       "id": "bugFix",
       "type": "branch"
     }
@@ -20,8 +20,8 @@
       "type": "commit",
       "parents": [],
       "author": "Peter Cottle",
-      "createTime": "Mon Nov 05 2012 00:56:47 GMT-0800 (PST)",
-      "commitMessage": "Quick Commit. Go Bears!",
+      "createTime": "Sat Dec 04 2021 10:29:55 GMT+0300 (Москва, стандартное время)",
+      "commitMessage": "Быстрый коммит. А надо!",
       "id": "C0",
       "rootCommit": true
     },
@@ -31,8 +31,8 @@
         "C0"
       ],
       "author": "Peter Cottle",
-      "createTime": "Mon Nov 05 2012 00:56:47 GMT-0800 (PST)",
-      "commitMessage": "Quick Commit. Go Bears!",
+      "createTime": "Sat Dec 04 2021 10:29:55 GMT+0300 (Москва, стандартное время)",
+      "commitMessage": "Быстрый коммит. А надо!",
       "id": "C1"
     },
     "C2": {
@@ -41,7 +41,7 @@
         "C1"
       ],
       "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 10:21:11 GMT+0300 (Москва, стандартное время)",
+      "createTime": "Sat Dec 04 2021 10:29:55 GMT+0300 (Москва, стандартное время)",
       "commitMessage": "Быстрый коммит. А надо!",
       "id": "C2"
     },
@@ -51,25 +51,25 @@
         "C1"
       ],
       "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 10:21:26 GMT+0300 (Москва, стандартное время)",
+      "createTime": "Sat Dec 04 2021 10:29:55 GMT+0300 (Москва, стандартное время)",
       "commitMessage": "Быстрый коммит. А надо!",
       "id": "C3"
     },
-    "C2'": {
+    "C4": {
       "type": "commit",
       "parents": [
         "C3"
       ],
       "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 10:21:45 GMT+0300 (Москва, стандартное время)",
+      "createTime": "Sat Dec 04 2021 10:29:55 GMT+0300 (Москва, стандартное время)",
       "commitMessage": "Быстрый коммит. А надо!",
-      "id": "C2'"
+      "id": "C4"
     }
   },
   "tags": {},
   "HEAD": {
+    "target": "C4",
     "id": "HEAD",
-    "target": "bugFix",
     "type": "general ref"
   }
 }
